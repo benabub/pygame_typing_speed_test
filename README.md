@@ -7,7 +7,7 @@
 
 ### Requirements
 - Python 3.10 or higher
-- Poetry
+- uv
 
 ### Installation steps
 
@@ -28,13 +28,13 @@ cd ~/your-repositories-directory/pygame-typing-speed-test
 
 Install the environment:
 ```bash
-poetry install
+uv sync
 ```
 
 ## How to use
 
 1. Open the text you are going to type in any application you like.
-2. Start the program with `poetry run python main.py` in the package directory of the project.
+2. Start the program with `uv run python main.py` in the package directory of the project.
 3. Place the program's window ahead of the text in a middle-bottom position:
 
     ![1](./README_files/1.png)
